@@ -24,3 +24,9 @@
 - Mobile workflow confirmed
 
 ---
+## 2026-02-20 23:50 — Finance baseline + service spend
+
+- Acquisition: RM50,000 (excluding insurance/road tax)
+- Service spend so far: RM1,032.52 (oil, plugs, coolant, filter, foam filter kit, Hardrace ball plate)
+
+---
