@@ -18,3 +18,9 @@
 - VTEC 6k → 8.5k (restricted)
 
 ---
+## 2026-02-20 14:57 — Android Entry
+
+- Logged from Termux
+- Mobile workflow confirmed
+
+---
