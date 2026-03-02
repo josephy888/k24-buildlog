@@ -1,0 +1,69 @@
+{
+  "project": "K24 NA Civic",
+  "status": "Phase 0 baseline locked; Phase 1 validation pending",
+  "engine": {
+    "block": "K24 sleeved",
+    "bore_mm": 87.5,
+    "pistons": "CP forged",
+    "rods": "forged",
+    "studs": "ARP",
+    "oil_pump": "Type R"
+  },
+  "valvetrain": {
+    "cams": {
+      "brand": "Blox",
+      "model": "Stage B",
+      "part_number": "BXCM-10201",
+      "vtec_lobe_0.050": {
+        "intake_duration_deg": 259,
+        "intake_lift_in": 0.523,
+        "exhaust_duration_deg": 252,
+        "exhaust_lift_in": 0.466
+      }
+    },
+    "springs": "Blox dual valve springs",
+    "retainers": "Titanium retainers"
+  },
+  "induction": {
+    "itbs": "OBX",
+    "itb_bore_mm": 51,
+    "notes": "Bent ITB runners present"
+  },
+  "exhaust": {
+    "header": "PLM 4-2-1",
+    "notes": "One primary runner dented; no crack observed"
+  },
+  "ecu": {
+    "ecu": "Link G4+ PlugIn",
+    "harness": "Wireworx milspec",
+    "tuner": "FastAuto",
+    "access_status": "unknown (may be locked)"
+  },
+  "fuel_system": {
+    "pump": "DW200 ~255 lph",
+    "injectors": "unknown size (duty observed ~85%)",
+    "injector_duty_observed": 0.85,
+    "considerations": [
+      "Upgrade to 550cc injectors for headroom",
+      "Add fuel pressure sensor into ECU for logging"
+    ]
+  },
+  "drivetrain": {
+    "gearbox": "DC5R stock ratios",
+    "lsd": true,
+    "final_drive": 4.7,
+    "tires": "245/40/17"
+  },
+  "rpm_strategy": {
+    "current_limit_rpm": 8500,
+    "planned_soft_rpm": 8500,
+    "planned_hard_rpm": 8800
+  },
+  "dyno": {
+    "dyno_type": "Dynojet",
+    "peak_power_ps_range": [274, 284],
+    "peak_torque_kgm": 28.3,
+    "notes": "Latest dyno was with bent ITB runners"
+  }
+}0
+
